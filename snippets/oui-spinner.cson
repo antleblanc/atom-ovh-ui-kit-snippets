@@ -1,0 +1,9 @@
+'.source.html':
+  'oui-spinner':
+    'prefix': 'oui-spinner'
+    'body': """
+      <oui-spinner data-size="m"></oui-spinner>
+    """
+    'description': 'oui-spinner'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-spinner/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

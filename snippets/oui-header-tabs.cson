@@ -1,0 +1,31 @@
+'.source.html':
+  'oui-header-tabs':
+    'prefix': 'oui-header-tabs'
+    'body': """
+      <oui-header-tabs>
+          <oui-header-tabs-item
+              data-text="${1:Home}"
+              href="${2:/#}">
+          </oui-header-tabs-item>
+          <oui-header-tabs-item
+              data-text="${3:Page Header}"
+              href="${4:/#!/oui-angular/page-header}">
+          </oui-header-tabs-item>
+          <oui-header-tabs-item
+              data-text="${5:Header Tabs}"
+              href="${6:/#!/oui-angular/header-tabs}"
+              data-active>
+          </oui-header-tabs-item>
+          <oui-header-tabs-item
+              data-text="${7:Pagination}"
+              href="${8:/#!/oui-angular/pagination}">
+          </oui-header-tabs-item>
+          <oui-header-tabs-item
+              data-text="${9:Datagrid}"
+              href="${10:/#!/oui-angular/datagrid}">
+          </oui-header-tabs-item>
+      </oui-header-tabs>
+    """
+    'description': 'oui-header-tabs'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-header-tabs/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

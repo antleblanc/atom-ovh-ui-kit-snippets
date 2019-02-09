@@ -1,0 +1,22 @@
+'.source.html':
+  'oui-field':
+    'prefix': 'oui-field'
+    'body': """
+      <oui-field
+          data-label="${1:Lastname}"
+          data-help-text="${2:At least 3 chars}"
+          data-size="${3:xl}">
+          <input
+              class="oui-input"
+              type="text"
+              id="lastname"
+              name="lastname"
+              data-ng-model="$ctrl.${4:user.lastname}"
+              required
+              minlength="3"
+              maxlength="32">
+      </oui-field>
+    """
+    'description': 'oui-field'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-field/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

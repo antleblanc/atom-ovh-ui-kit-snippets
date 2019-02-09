@@ -1,0 +1,14 @@
+'.source.html':
+  'oui-autocomplete':
+    'prefix': 'oui-autocomplete'
+    'body': """
+      <input
+          type="text"
+          class="oui-input oui-input_inline"
+          placeholder="${1:Search country name}"
+          data-ng-model="$ctrl.${2:modelStrings}"
+          data-oui-autocomplete="$ctrl.${3:suggestionStrings}">
+    """
+    'description': 'oui-autocomplete'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-autocomplete/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

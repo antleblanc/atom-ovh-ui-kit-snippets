@@ -1,0 +1,9 @@
+'.source.html':
+  'oui-back-button':
+    'prefix': 'oui-back-button'
+    'body': """
+      <oui-back-button href="${1:#}">${2:Title}</oui-back-button>
+    """
+    'description': 'oui-back-button'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-back-button/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

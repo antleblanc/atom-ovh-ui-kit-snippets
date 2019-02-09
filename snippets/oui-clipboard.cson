@@ -1,0 +1,9 @@
+'.source.html':
+  'oui-clipboard':
+    'prefix': 'oui-clipboard'
+    'body': """
+      <oui-clipboard data-model="$ctrl.${1:simpleModel}"></oui-clipboard>
+    """
+    'description': 'oui-clipboard'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-clipboard/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

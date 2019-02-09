@@ -1,0 +1,13 @@
+'.source.html':
+  'oui-button':
+    'prefix': 'oui-button'
+    'body': """
+      <oui-button
+          data-variant="${1:primary}"
+          data-on-click="${2:onClick}()">
+        ${3:Default button}
+      </oui-button>
+    """
+    'description': 'oui-button'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-button/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

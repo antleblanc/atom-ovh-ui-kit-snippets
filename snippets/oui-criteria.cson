@@ -1,0 +1,13 @@
+'.source.html':
+  'oui-criteria':
+    'prefix': 'oui-criteria'
+    'body': """
+      <oui-criteria
+          data-model="$ctrl.${1:basicModel}"
+          data-properties="$ctrl.${2:inputValue}"
+          data-searchable>
+      </oui-criteria>
+    """
+    'description': 'oui-criteria'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-criteria/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

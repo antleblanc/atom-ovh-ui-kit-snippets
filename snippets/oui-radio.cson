@@ -1,0 +1,14 @@
+'.source.html':
+  'oui-radio':
+    'prefix': 'oui-radio'
+    'body': """
+      <oui-radio
+          data-name="${1:oui-radio-1}"
+          data-model="$ctrl.${2:value1}"
+          data-value="${3:'a'}">
+          ${4:Value A}
+      </oui-radio>
+    """
+    'description': 'oui-radio'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-radio/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

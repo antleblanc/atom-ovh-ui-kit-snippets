@@ -1,0 +1,12 @@
+'.source.html':
+  'oui-search':
+    'prefix': 'oui-search'
+    'body': """
+      <oui-search
+          data-model="$ctrl.${1:modelValue}"
+          placeholder="${2:Placeholder example}">
+      </oui-search>
+    """
+    'description': 'oui-search'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-search/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

@@ -1,0 +1,22 @@
+'.source.html':
+  'oui-inline-adder':
+    'prefix': 'oui-inline-adder'
+    'body': """
+      <oui-inline-adder>
+          <oui-inline-adder-row>
+              <oui-inline-adder-field>
+                  <oui-field data-label="${1:Field 1}">
+                      <input
+                          type="text"
+                          class="oui-input"
+                          name="${2:field1}"
+                          data-ng-model="${3:field1}"
+                          required>
+                  </oui-field>
+              </oui-inline-adder-field>
+          </oui-inline-adder-row>
+      </oui-inline-adder>
+    """
+    'description': 'oui-inline-adder'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-inline-adder/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

@@ -1,0 +1,15 @@
+'.source.html':
+  'oui-select-picker':
+    'prefix': 'oui-select-picker'
+    'body': """
+      <oui-select-picker
+          data-name="${1:ouiSelectPicker1}"
+          data-match="${2:name}"
+          data-model="$ctrl.${3:value1}"
+          data-label="${4:Value A or B}"
+          data-values="${5:[{id:'a', name: 'Value A'}, {id:'b', name: 'Value B'}]}">
+      </oui-select-picker>
+    """
+    'description': 'oui-select-picker'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-select-picker/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

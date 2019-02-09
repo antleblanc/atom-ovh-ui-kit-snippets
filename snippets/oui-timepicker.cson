@@ -1,0 +1,12 @@
+'.source.html':
+  'oui-timepicker':
+    'prefix': 'oui-timepicker'
+    'body': """
+      <oui-timepicker
+          data-model="$ctrl.${1:placeholderModel}"
+          placeholder="${2:HH:MM}">
+      </oui-timepicker>
+    """
+    'description': 'oui-timepicker'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-timepicker/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

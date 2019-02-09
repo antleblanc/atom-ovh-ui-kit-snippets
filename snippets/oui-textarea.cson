@@ -1,0 +1,15 @@
+'.source.html':
+  'oui-textarea':
+    'prefix': 'oui-textarea'
+    'body': """
+      <oui-textarea
+          id="${1:text}"
+          name="${2:text}"
+          placeholder="${3:Please insert your text...}"
+          data-model="$ctrl.${4:text}"
+          data-rows="${5:7}">
+      </oui-textarea>
+    """
+    'description': 'oui-textarea'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-textarea/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

@@ -1,0 +1,12 @@
+'.source.html':
+  'oui-file':
+    'prefix': 'oui-file'
+    'body': """
+      <oui-file
+          data-model="$ctrl.${1:modelBasic}"
+          placeholder="${2:Placeholder example}">
+      </oui-file>
+    """
+    'description': 'oui-file'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-file/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

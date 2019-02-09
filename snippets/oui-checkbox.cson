@@ -1,0 +1,9 @@
+'.source.html':
+  'oui-checkbox':
+    'prefix': 'oui-checkbox'
+    'body': """
+      <oui-checkbox data-model="$ctrl.${1:checked}">${2:Normal}</oui-checkbox>
+    """
+    'description': 'oui-checkbox'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-checkbox/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

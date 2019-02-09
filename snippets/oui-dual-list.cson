@@ -1,0 +1,14 @@
+'.source.html':
+  'oui-dual-list':
+    'prefix': 'oui-dual-list'
+    'body': """
+      <oui-dual-list
+          data-source="$ctrl.${1:sourceStrings}"
+          data-target="$ctrl.${2:targetStrings}">
+          <oui-dual-list-source data-searchable></oui-dual-list-source>
+          <oui-dual-list-target></oui-dual-list-target>
+      </oui-dual-list>
+    """
+    'description': 'oui-dual-list'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-dual-list/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

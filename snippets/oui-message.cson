@@ -1,0 +1,14 @@
+'.source.html':
+  'oui-message':
+    'prefix': 'oui-message'
+    'body': """
+      <oui-message
+          aria-close-button-label="${1:Close}"
+          data-type="${2:info}"
+          dismissable>
+          ${3:Message}
+      </oui-message>
+    """
+    'description': 'oui-message'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-message/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

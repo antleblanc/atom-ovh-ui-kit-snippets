@@ -1,0 +1,19 @@
+{
+  "name": "atom-ovh-ui-kit-snippets",
+  "version": "0.0.0",
+  "description": "Collection of OVH UI Kit snippets",
+  "keywords": [
+    "angularjs",
+    "atom",
+    "ovh",
+    "snippets",
+    "ui-kit"
+  ],
+  "repository": "https://github.com/antleblanc/atom-ovh-ui-kit-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

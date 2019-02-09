@@ -1,0 +1,13 @@
+'.source.html':
+  'oui-collapsible':
+    'prefix': 'oui-collapsible'
+    'body': """
+      <oui-collapsible
+          aria-label="${1:Action}"
+          data-heading="${2:Title}"
+          data-expanded="true">
+      </oui-collapsible>
+    """
+    'description': 'oui-collapsible'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-collapsible/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

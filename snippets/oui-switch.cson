@@ -1,0 +1,13 @@
+'.source.html':
+  'oui-switch':
+    'prefix': 'oui-switch'
+    'body': """
+      <oui-switch
+          id="${1:switch}"
+          name="${1:switch-name}"
+          data-model="${3:false}">
+      </oui-switch>
+    """
+    'description': 'oui-switch'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-switch/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

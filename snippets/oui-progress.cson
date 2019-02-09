@@ -1,0 +1,14 @@
+'.source.html':
+  'oui-progress':
+    'prefix': 'oui-progress'
+    'body': """
+      <oui-progress>
+          <oui-progress-bar
+              data-type="${1:info}"
+              data-value="$ctrl.${2:progressData.value}">
+          </oui-progress-bar>
+      </oui-progress>
+    """
+    'description': 'oui-progress'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-progress/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

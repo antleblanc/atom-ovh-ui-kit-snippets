@@ -1,0 +1,15 @@
+'.source.html':
+  'oui-navbar':
+    'prefix': 'oui-navbar'
+    'body': """
+      <oui-navbar
+          data-brand="$ctrl.${1:brand}"
+          data-active-link="${2:lorem}"
+          data-main-links="$ctrl.${3:mainLinks}"
+          data-aside-links="$ctrl.${4:asideLinks}"
+          data-toggler-links="$ctrl.${5:togglerLinks}">
+      </oui-navbar>
+    """
+    'description': 'oui-navbar'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-navbar/README.md'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'

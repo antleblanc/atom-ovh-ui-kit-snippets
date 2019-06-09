@@ -2,12 +2,8 @@
   'oui-button':
     'prefix': 'oui-button'
     'body': """
-      <oui-button
-          data-variant="${1:primary}"
-          data-on-click="${2:onClick}()">
-        ${3:Default button}
-      </oui-button>
+      <oui-button aria-label="${1:Manage your servers}">${1:Manage your servers}</oui-button>
     """
     'description': 'oui-button'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-button/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/button'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

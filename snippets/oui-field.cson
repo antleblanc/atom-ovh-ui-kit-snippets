@@ -9,14 +9,14 @@
           <input
               class="oui-input"
               type="text"
-              id="lastname"
-              name="lastname"
-              data-ng-model="$ctrl.${4:user.lastname}"
+              id="${4:lastname}"
+              name="${4:lastname}"
+              data-ng-model="$ctrl.${5:user.lastname}"
               required
-              minlength="3"
-              maxlength="32">
+              minlength="${6:3}"
+              maxlength="${7:32}">
       </oui-field>
     """
     'description': 'oui-field'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-field/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/field'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

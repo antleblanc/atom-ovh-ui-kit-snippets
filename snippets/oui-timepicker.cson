@@ -3,10 +3,14 @@
     'prefix': 'oui-timepicker'
     'body': """
       <oui-timepicker
-          data-model="$ctrl.${1:placeholderModel}"
-          placeholder="${2:HH:MM}">
+          disabled="$ctrl.${1:disabled}"
+          data-model="$ctrl.${2:model}"
+          data-on-change="$ctrl.${3:onChange(modelValue)}"
+          data-on-close="$ctrl.${4:onClose(modelValue)}"
+          data-on-open="$ctrl.${5:onOpen(modelValue)}"
+          placeholder="${6:HH:MM}">
       </oui-timepicker>
     """
     'description': 'oui-timepicker'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-timepicker/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/timepicker'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

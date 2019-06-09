@@ -2,14 +2,35 @@
   'oui-select-picker':
     'prefix': 'oui-select-picker'
     'body': """
-      <oui-select-picker
-          data-name="${1:ouiSelectPicker1}"
+     <oui-select-picker
+          disabled="$ctrl.${1:disabled}"
+          name="${1:ouiSelectPicker1}"
           data-match="${2:name}"
-          data-model="$ctrl.${3:value1}"
+          data-model="$ctrl.${3:model}"
           data-label="${4:Value A or B}"
-          data-values="${5:`[{id:'a', name: 'Value A'\\}, {id:'b', name: 'Value B'\\}`]}">
+          data-on-change="$ctrl.${7:onChange(modelValue)}"
+          data-values="$ctrl.${8:values1}">
+      </oui-select-picker>
+      <oui-select-picker
+          disabled="$ctrl.disabled"
+          name="${1:ouiSelectPicker1}"
+          data-match="${2:name}"
+          data-model="$ctrl.${3:model}"
+          data-label="${5:Value C}"
+          data-on-change="$ctrl.${7:onChange(modelValue)}"
+          data-values="$ctrl.${9:values2}">
+      </oui-select-picker>
+      <oui-select-picker
+          disabled="$ctrl.disabled"
+          name="${1:ouiSelectPicker1}"
+          data-match="${2:name}"
+          data-model="$ctrl.${3:model}"
+          data-placeholder="Select"
+          data-label="${6:Value D, E or F"
+          data-on-change="$ctrl.${7:onChange(modelValue)}"
+          data-values="$ctrl.${10:values3}">
       </oui-select-picker>
     """
     'description': 'oui-select-picker'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-select-picker/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/select-picker'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

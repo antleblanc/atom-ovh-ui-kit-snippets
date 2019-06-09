@@ -3,12 +3,13 @@
     'prefix': 'oui-autocomplete'
     'body': """
       <input
-          type="text"
-          class="oui-input oui-input_inline"
-          placeholder="${1:Search country name}"
-          data-ng-model="$ctrl.${2:modelStrings}"
-          data-oui-autocomplete="$ctrl.${3:suggestionStrings}">
+        type="text"
+        class="oui-input oui-input_inline"
+        placeholder="${1:Search country name}"
+        data-ng-model="$ctrl.${2:model}"
+        data-oui-autocomplete="$ctrl.${3:suggestions}"
+        data-oui-autocomplete-on-select="$ctrl.${4:onAutocomplete(value)}">
     """
     'description': 'oui-autocomplete'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-autocomplete/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/autocomplete'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>directive</small></span>'

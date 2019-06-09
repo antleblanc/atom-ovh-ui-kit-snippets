@@ -1,0 +1,12 @@
+'.source.html':
+  'oui-header':
+    'prefix': 'oui-header'
+    'body': """
+      <oui-header
+          data-heading="${1:My title}"
+          data-description="${2:My subtitle}">
+      </oui-header>
+    """
+    'description': 'oui-header'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/header'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

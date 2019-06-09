@@ -3,13 +3,14 @@
     'prefix': 'oui-textarea'
     'body': """
       <oui-textarea
-          id="${1:text}"
-          name="${2:text}"
-          placeholder="${3:Please insert your text...}"
-          data-model="$ctrl.${4:text}"
-          data-rows="${5:7}">
+          disabled="$ctrl.${1:disabled}"
+          data-model="$ctrl.${2:model}"
+          data-on-change="$ctrl.${3:onChange(modelValue)}"
+          placeholder="${4:Please insert your text…}"
+          readonly="$ctrl.${5:readonly}"
+          rows="${6:7}">
       </oui-textarea>
     """
     'description': 'oui-textarea'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-textarea/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/textarea'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

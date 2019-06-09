@@ -2,8 +2,13 @@
   'oui-checkbox':
     'prefix': 'oui-checkbox'
     'body': """
-      <oui-checkbox data-model="$ctrl.${1:checked}">${2:Normal}</oui-checkbox>
+      <oui-checkbox
+          aria-label="${1:Allow ponies in your server}"
+          data-model="$ctrl.${2:model2}"
+          data-on-change="$ctrl.${3:onChange(modelValue)}">
+          ${4:Allow ponies in your server}
+      </oui-checkbox>
     """
     'description': 'oui-checkbox'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-checkbox/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/checkbox'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

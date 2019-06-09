@@ -1,0 +1,9 @@
+'.source.html':
+  'oui-form-actions':
+    'prefix': 'oui-form-actions'
+    'body': """
+      <oui-form-actions disabled="$ctrl.${1:disabled}"></oui-form-actions>
+    """
+    'description': 'oui-form-actions'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/form-actions'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

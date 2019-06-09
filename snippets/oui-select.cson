@@ -3,12 +3,16 @@
     'prefix': 'oui-select'
     'body': """
       <oui-select
-          data-name="${1:letter}"
-          data-model="$ctrl.${2:modelBasicString}"
-          placeholder="${3:Select a letter...}"
-          data-items="${4:['a', 'b', 'c']}">
+          disabled="$ctrl.${1:disabled}"
+          data-items="${2:['a', 'b', 'c']}"
+          data-model="$ctrl.${3:model}"
+          name="${4:letter}"
+          placeholder="{{ $ctrl.${5:placeholder} }}"
+          data-on-blur="$ctrl.${6:onBlur()}"
+          data-on-change="$ctrl.${7:onChange(modelValue)}"
+          data-on-focus="$ctrl.${8:onFocus()}">
       </oui-select>
     """
     'description': 'oui-select'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-select/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/select'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

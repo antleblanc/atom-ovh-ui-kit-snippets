@@ -2,8 +2,8 @@
   'oui-skeleton':
     'prefix': 'oui-skeleton'
     'body': """
-      <oui-skeleton data-size="auto"></oui-skeleton>
+      <oui-skeleton></oui-skeleton>
     """
     'description': 'oui-skeleton'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-skeleton/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/skeleton'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

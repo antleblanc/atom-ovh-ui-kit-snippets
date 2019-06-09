@@ -3,11 +3,11 @@
     'prefix': 'oui-pagination'
     'body': """
       <oui-pagination
-          data-current-offset="$ctrl.${1:pagination.offset}"
-          data-total-items="$ctrl.${2:pagination.totalItems}"
-          data-on-change="$ctrl.onChange(${3:'pagination', $event})">
+          data-current-offset="${1:1}"
+          data-page-size="${2:100}"
+          data-total-items="${3:12}">
       </oui-pagination>
     """
     'description': 'oui-pagination'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-pagination/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/pagination'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>internal</small></span>'

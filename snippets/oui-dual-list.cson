@@ -2,13 +2,22 @@
   'oui-dual-list':
     'prefix': 'oui-dual-list'
     'body': """
-      <oui-dual-list
-          data-source="$ctrl.${1:sourceStrings}"
-          data-target="$ctrl.${2:targetStrings}">
-          <oui-dual-list-source data-searchable></oui-dual-list-source>
-          <oui-dual-list-target></oui-dual-list-target>
+     <oui-dual-list
+          data-on-add="$ctrl.${1:onAdd(item)}"
+          data-on-change="$ctrl.${2:onChange(item)}"
+          data-on-remove="$ctrl.${3:onRemove(item)}"
+          data-source="$ctrl.${4:source}"
+          data-target="$ctrl.${5:target}">
+          <oui-dual-list-source
+              data-loading="$ctrl.${6:sourceLoading}"
+              data-searchable="$ctrl.${7:sourceSearchable}">
+          </oui-dual-list-source>
+          <oui-dual-list-target
+              data-loading="$ctrl.${8:targetLoading}"
+              data-searchable="$ctrl.${9:targetSearchable}">
+          </oui-dual-list-target>
       </oui-dual-list>
     """
     'description': 'oui-dual-list'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-dual-list/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/dual-list'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

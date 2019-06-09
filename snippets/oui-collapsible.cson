@@ -3,11 +3,13 @@
     'prefix': 'oui-collapsible'
     'body': """
       <oui-collapsible
-          aria-label="${1:Action}"
-          data-heading="${2:Title}"
-          data-expanded="true">
+          data-heading="${1:Title}"
+          aria-label="${2:Action}"
+          data-expanded="$ctrl.${3:expanded}"
+          data-on-toggle="$ctrl.${4:onToggle(expanded)}">
+          ${5:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper ligula nec fringilla tempor. In rhoncus ullamcorper feugiat. Phasellus vel ipsum vitae neque varius luctus. Proin id iaculis arcu. Fusce justo arcu, egestas vel nulla nec, dictum cursus lacus. Aenean elementum vel odio quis rutrum. In quis tellus in neque vulputate rhoncus vitae ut justo. Ut dignissim varius est in consequat. Donec nisi mauris, pellentesque condimentum congue in, blandit ut arcu. In et elit ipsum.}
       </oui-collapsible>
     """
     'description': 'oui-collapsible'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-collapsible/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/collapsible'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

@@ -3,11 +3,11 @@
     'prefix': 'oui-switch'
     'body': """
       <oui-switch
-          id="${1:switch}"
-          name="${1:switch-name}"
-          data-model="${3:false}">
+          disabled="$ctrl.${1:disabled}"
+          data-model="$ctrl.${2:checked}"
+          data-on-change="$ctrl.${3:onChange(modelValue)}">
       </oui-switch>
     """
     'description': 'oui-switch'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-switch/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/switch'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

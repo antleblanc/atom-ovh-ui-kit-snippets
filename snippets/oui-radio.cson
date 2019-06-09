@@ -3,12 +3,14 @@
     'prefix': 'oui-radio'
     'body': """
       <oui-radio
-          data-name="${1:oui-radio-1}"
-          data-model="$ctrl.${2:value1}"
-          data-value="${3:'a'}">
-          ${4:Value A}
+          disabled="$ctrl.${1:disabled}"
+          data-model="$ctrl.${2:model}"
+          name="${3:oui-radio-1}"
+          data-on-change="$ctrl.${4:onChange(modelValue)}"
+          value="$ctrl.${5:value1}">
+          ${6:Value A}
       </oui-radio>
     """
     'description': 'oui-radio'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-radio/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/radio'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

@@ -2,12 +2,8 @@
   'oui-chips':
     'prefix': 'oui-chips'
     'body': """
-      <oui-chips
-          data-items="$ctrl.${1:items}"
-          data-stacked
-          data-closable>
-      </oui-chips>
+      <oui-chips data-items="$ctrl.${1:items}"></oui-chips>
     """
     'description': 'oui-chips'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-chips/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/chips'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

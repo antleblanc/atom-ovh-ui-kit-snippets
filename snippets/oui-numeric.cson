@@ -3,11 +3,11 @@
     'prefix': 'oui-numeric'
     'body': """
       <oui-numeric
-          min="${1:2}"
-          max="${2:8}"
-          data-model="$ctrl.${3:size}">
+          data-model="$ctrl.${1:model}"
+          disabled="$ctrl.${2:disabled}"
+          data-on-change="$ctrl.${3:onChange(modelValue)}">
       </oui-numeric>
     """
     'description': 'oui-numeric'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-angular/blob/master/packages/oui-numeric/README.md'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit</span>'
+    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/numeric'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'

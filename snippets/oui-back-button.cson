@@ -2,7 +2,6 @@
   'oui-back-button':
     'prefix': 'oui-back-button'
     'body': """
-
       <oui-back-button
           href="${1}"
           aria-label="${2:Aria label for heading}"

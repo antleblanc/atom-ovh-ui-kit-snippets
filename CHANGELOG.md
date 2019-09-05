@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/antleblanc/atom-ovh-ui-kit-snippets/compare/v2.0.0...v2.0.1) (2019-09-05)
+
+
+### Bug Fixes
+
+* **oui-select-picker:** use the right tab stop order ([80c3e95](https://github.com/antleblanc/atom-ovh-ui-kit-snippets/commit/80c3e95))
+
+
+
 # [2.0.0](https://github.com/antleblanc/atom-ovh-ui-kit-snippets/compare/v1.0.1...v2.0.0) (2019-07-14)
 
 

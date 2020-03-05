@@ -11,4 +11,4 @@
     """
     'description': 'oui-progress'
     'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/progress'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>component</small></span>'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

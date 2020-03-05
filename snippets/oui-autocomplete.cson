@@ -12,4 +12,4 @@
     """
     'description': 'oui-autocomplete'
     'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/autocomplete'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVH UI Kit <small>directive</small></span>'
+    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>directive</small></span>'

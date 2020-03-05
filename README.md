@@ -2,7 +2,7 @@
 
 > Collection of OVH UI Kit snippets for Atom.
 
-[![OVH UI Kit documentation](media/screenshot.png)](https://ovh-ux.github.io/ovh-ui-kit-documentation/#!/documentation/introduction)
+[![OVH UI Kit documentation](media/screenshot.png)](https://ovh-ux.github.io/ovh-ui-kit/)
 
 **Disclaimer**: OVH UI Kit Snippets for Atom it is not an official OVH product.
 

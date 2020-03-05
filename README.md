@@ -9,7 +9,7 @@
 ## Install
 
 ```sh
-apm install atom-ovh-ui-kit-snippets
+$ apm install atom-ovh-ui-kit-snippets
 ```
 
 ## Usage

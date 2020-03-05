@@ -1,11 +1,12 @@
 {
   "name": "atom-ovh-ui-kit-snippets",
   "version": "2.0.1",
-  "description": "Collection of OVH UI Kit snippets",
+  "description": "Collection of OVHcloud UI Kit snippets",
   "keywords": [
     "angularjs",
     "atom",
     "ovh",
+    "ovhcloud",
     "snippets",
     "ui-kit"
   ],

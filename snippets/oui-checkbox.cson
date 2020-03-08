@@ -1,14 +1,33 @@
-'.source.html':
+'.text.html':
   'oui-checkbox':
     'prefix': 'oui-checkbox'
     'body': """
       <oui-checkbox
-          aria-label="${1:Allow ponies in your server}"
-          data-model="$ctrl.${2:model2}"
-          data-on-change="$ctrl.${3:onChange(modelValue)}">
-          ${4:Allow ponies in your server}
+          disabled="$ctrl.${1:disabled}"
+          model="$ctrl.${2:model1}"
+          name="${3:oui-checkbox-1}"
+          on-change="$ctrl.${4:onChange(modelValue)}"
+          value="$ctrl.${5:value1}">
+          ${6:Value A}
       </oui-checkbox>
     """
     'description': 'oui-checkbox'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/checkbox'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-checkbox-webcomponent-simple--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-checkbox-thumbnail':
+    'prefix': 'oui-checkbox-thumbnail'
+    'body': """
+      <oui-checkbox
+          disabled="$ctrl.${1:disabled}"
+          model="$ctrl.${2:model1}"
+          name="${3:oui-checkbox-1}"
+          on-change="$ctrl.${4:onChange(modelValue)}"
+          value="$ctrl.${5:value1}"
+          thumbnail>
+          ${6:Value A}
+      </oui-checkbox>
+    """
+    'description': 'oui-checkbox-thumbnail'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/docs/design-system-components-checkbox-webcomponent-thumbnail--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

@@ -1,15 +1,51 @@
-'.source.html':
+'.text.html':
   'oui-collapsible':
     'prefix': 'oui-collapsible'
     'body': """
       <oui-collapsible
-          data-heading="${1:Title}"
+          heading="${1:Title}"
           aria-label="${2:Action}"
-          data-expanded="$ctrl.${3:expanded}"
-          data-on-toggle="$ctrl.${4:onToggle(expanded)}">
-          ${5:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper ligula nec fringilla tempor. In rhoncus ullamcorper feugiat. Phasellus vel ipsum vitae neque varius luctus. Proin id iaculis arcu. Fusce justo arcu, egestas vel nulla nec, dictum cursus lacus. Aenean elementum vel odio quis rutrum. In quis tellus in neque vulputate rhoncus vitae ut justo. Ut dignissim varius est in consequat. Donec nisi mauris, pellentesque condimentum congue in, blandit ut arcu. In et elit ipsum.}
+          on-toggle="$ctrl.${3:onToggle(expanded)}">
+          ${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper ligula nec fringilla tempor. In rhoncus ullamcorper feugiat. Phasellus vel ipsum vitae neque varius luctus. Proin id iaculis arcu. Fusce justo arcu, egestas vel nulla nec, dictum cursus lacus. Aenean elementum vel odio quis rutrum. In quis tellus in neque vulputate rhoncus vitae ut justo. Ut dignissim varius est in consequat. Donec nisi mauris, pellentesque condimentum congue in, blandit ut arcu. In et elit ipsum.}
       </oui-collapsible>
     """
     'description': 'oui-collapsible'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/collapsible'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-collapsible-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-collapsible-loading':
+    'prefix': 'oui-collapsible-loading'
+    'body': """
+      <oui-collapsible
+          heading="${1:Click to load content}"
+          loading="$ctrl.${2:loading}"
+          aria-label="${3:Action}"
+          expanded="$ctrl.${4:expanded}"
+          on-toggle="$ctrl.${5:onToggle(expanded, this)}">
+          <span data-ng-bind="$ctrl.${6:content}"></span>
+      </oui-collapsible>
+    """
+    'description': 'oui-collapsible-loading'
+    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/design-system-components-collapsible-webcomponent--loading'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-collapsible-group':
+    'prefix': 'oui-collapsible-group'
+    'body': """
+      <oui-collapsible
+          heading="${1:Title}"
+          group="${2:lorem}"
+          on-toggle="$ctrl.${3:onToggle('Collapsible 1', expanded)}">
+          ${4:Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam eveniet, commodi nisi officia iusto minus repellat magnam in vel? Nisi, ea? Nam cupiditate sint ullam temporibus perspiciatis, nostrum pariatur amet?}
+      </oui-collapsible>
+
+      <oui-collapsible
+          heading="${5:Title}"
+          group="${2:lorem}"
+          on-toggle="$ctrl.${6:onToggle('Collapsible 2', expanded)}">
+          ${7:Corporis dicta porro labore repellendus accusantium. Aperiam dolore velit corrupti ex accusantium nihil doloremque rerum voluptate reprehenderit cum molestias cumque mollitia obcaecati, est saepe quod dolorum magni non quidem aliquid?}
+      </oui-collapsible>
+    """
+    'description': 'oui-collapsible-group'
+    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/design-system-components-collapsible-webcomponent--group-accordion'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

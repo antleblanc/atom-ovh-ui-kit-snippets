@@ -1,22 +1,63 @@
-'.source.html':
+'.text.html':
   'oui-field':
     'prefix': 'oui-field'
     'body': """
-      <oui-field
-          data-label="${1:Lastname}"
-          data-help-text="${2:At least 3 chars}"
-          data-size="${3:xl}">
-          <input
-              class="oui-input"
+      <oui-field label="${1:Label}">
+          <input class="oui-input"
+              name="${2:field}"
+              placeholder="${3:Please insert your text…}"
               type="text"
-              id="${4:lastname}"
-              name="${4:lastname}"
-              data-ng-model="$ctrl.${5:user.lastname}"
-              required
-              minlength="${6:3}"
-              maxlength="${7:32}">
+              value="${4:Lorem ipsum dolor sit amet}">
       </oui-field>
     """
     'description': 'oui-field'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/field'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-field-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-field-label-popover':
+    'prefix': 'oui-field-label-popover'
+    'body': """
+      <oui-field label="${1:Label}"
+          label-popover="${2:Lorem ipsum dolor sit amet}">
+          <input class="oui-input"
+              name="${3:field}"
+              placeholder="${4:Please insert your text…}"
+              type="text"
+              value="${5:Lorem ipsum dolor sit amet}">
+      </oui-field>
+    """
+    'description': 'oui-field-label-popover'
+    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/design-system-components-field-webcomponent--label-popover'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-field-help-text':
+    'prefix': 'oui-field-help-text'
+    'body': """
+      <oui-field label="${1:Label}"
+          help-text="${2:Lorem ipsum dolor sit amet}">
+          <input class="oui-input"
+              name="${3:field}"
+              placeholder="${4:Please insert your text…}"
+              type="text"
+              value="${5:Lorem ipsum dolor sit amet}">
+      </oui-field>
+    """
+    'description': 'oui-field-help-text'
+    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/design-system-components-field-webcomponent--help-text'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-field-size':
+    'prefix': 'oui-field-size'
+    'body': """
+      <oui-field label="${1:Label}"
+          size="${2:xs}">
+          <input class="oui-input"
+              name="${3:field-xs}"
+              placeholder="${4:Please insert your text…}"
+              type="text"
+              value="${5:Lorem ipsum dolor sit amet}">
+      </oui-field>
+    """
+    'description': 'oui-field-size'
+    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/design-system-components-field-webcomponent--sizes'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

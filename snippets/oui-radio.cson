@@ -1,16 +1,50 @@
-'.source.html':
+'.text.html':
   'oui-radio':
     'prefix': 'oui-radio'
     'body': """
       <oui-radio
           disabled="$ctrl.${1:disabled}"
-          data-model="$ctrl.${2:model}"
+          model="$ctrl.${2:model}"
           name="${3:oui-radio-1}"
-          data-on-change="$ctrl.${4:onChange(modelValue)}"
+          on-change="$ctrl.${4:onChange(modelValue)}"
           value="$ctrl.${5:value1}">
           ${6:Value A}
       </oui-radio>
     """
     'description': 'oui-radio'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/radio'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-radio-webcomponent-simple--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-radio-inline':
+    'prefix': 'oui-radio-inline'
+    'body': """
+      <oui-radio
+          disabled="$ctrl.${1:disabled}"
+          model="$ctrl.${2:model}"
+          name="${3:oui-radio-1}"
+          on-change="$ctrl.${4:onChange(modelValue)}"
+          value="$ctrl.${5:value1}"
+          inline>
+          ${6:Value A}
+      </oui-radio>
+    """
+    'description': 'oui-radio-inline'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-radio-webcomponent-simple--inline'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-radio-with-description':
+    'prefix': 'oui-radio-with-description'
+    'body': """
+      <oui-radio
+          disabled="$ctrl.${1:disabled}"
+          model="$ctrl.${2:model}"
+          name="${3:oui-radio-1}"
+          on-change="$ctrl.${4:onChange(modelValue)}"
+          value="$ctrl.${5:value1}">
+          <oui-radio-label>${6:Value A}</oui-radio-label>
+          <oui-radio-description>${7:Lorem ipsum dolor sit amet, consectetur adipiscing elit.}</oui-radio-description>
+      </oui-radio>
+    """
+    'description': 'oui-radio-with-description'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-radio-webcomponent-simple--with-description'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

@@ -1,14 +1,29 @@
-'.source.html':
+'.text.html':
   'oui-criteria':
     'prefix': 'oui-criteria'
     'body': """
       <oui-criteria
           disabled="$ctrl.${1:disabled}"
-          data-model="$ctrl.${2:model}"
-          data-on-change="$ctrl.${3:onChange(modelValue)}"
-          data-properties="$ctrl.${4:properties}">
+          model="$ctrl.${2:model}"
+          on-change="$ctrl.${3:onChange(modelValue)}"
+          properties="$ctrl.${4:properties}">
       </oui-criteria>
     """
     'description': 'oui-criteria'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/criteria'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>internal</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/legacy-components-criteria-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-criteria-with-a-search-field':
+    'prefix': 'oui-criteria-with-a-search-field'
+    'body': """
+      <oui-criteria
+          disabled="$ctrl.${1:disabled}"
+          model="$ctrl.${2:model}"
+          on-change="$ctrl.${3:onChange(modelValue)}"
+          properties="$ctrl.${4:properties}"
+          searchable>
+      </oui-criteria>
+    """
+    'description': 'oui-criteria-with-a-search-field'
+    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/legacy-components-criteria-webcomponent--with-a-search-field'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

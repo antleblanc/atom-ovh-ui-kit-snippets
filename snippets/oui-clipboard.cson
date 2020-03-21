@@ -5,5 +5,5 @@
       <oui-clipboard data-model="$ctrl.${2:model}"></oui-clipboard>
     """
     'description': 'oui-clipboard'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/clipboard'
+    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/clipboard'
     'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

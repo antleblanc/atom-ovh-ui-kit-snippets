@@ -11,5 +11,5 @@
       </oui-collapsible>
     """
     'description': 'oui-collapsible'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/collapsible'
+    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/collapsible'
     'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

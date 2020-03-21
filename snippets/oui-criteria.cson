@@ -10,5 +10,5 @@
       </oui-criteria>
     """
     'description': 'oui-criteria'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/criteria'
+    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/criteria'
     'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>internal</small></span>'

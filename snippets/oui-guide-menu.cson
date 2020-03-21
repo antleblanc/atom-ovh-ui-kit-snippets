@@ -21,5 +21,5 @@
       </oui-guide-menu>
     """
     'description': 'oui-guide-menu'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/guide-menu'
+    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/guide-menu'
     'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

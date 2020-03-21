@@ -5,5 +5,5 @@
       <oui-button aria-label="${1:Manage your servers}">${1:Manage your servers}</oui-button>
     """
     'description': 'oui-button'
-    'descriptionMoreURL': 'https://github.com/ovh-ux/ovh-ui-kit/tree/master/packages/components/button'
+    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/button'
     'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

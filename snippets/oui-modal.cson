@@ -1,14 +1,67 @@
-'.source.html':
+'.text.html':
   'oui-modal':
     'prefix': 'oui-modal'
     'body': """
       <oui-modal
-          data-heading="${1:Modal title}"
-          data-loading="$ctrl.${2:isLoading}"
-          data-on-dismiss="$ctrl.${3:onDismiss()}">
-          ${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper ligula nec fringilla tempor. In rhoncus ullamcorper feugiat. Phasellus vel ipsum vitae neque varius luctus. Proin id iaculis arcu. Fusce justo arcu, egestas vel nulla nec, dictum cursus lacus. Aenean elementum vel odio quis rutrum. In quis tellus in neque vulputate rhoncus vitae ut justo. Ut dignissim varius est in consequat. Donec nisi mauris, pellentesque condimentum congue in, blandit ut arcu. In et elit ipsum.}
+          heading="${1:Modal title}"
+          loading="$ctrl.${2:isLoading}"
+          on-dismiss="$ctrl.${3:onDismiss()}">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Duis semper ligula nec fringilla tempor. In rhoncus ullamcorper feugiat.
+          Phasellus vel ipsum vitae neque varius luctus. Proin id iaculis arcu.
+          Fusce justo arcu, egestas vel nulla nec, dictum cursus lacus.
+          Aenean elementum vel odio quis rutrum. In quis tellus in neque vulputate
+          rhoncus vitae ut justo. Ut dignissim varius est in consequat.
+          Donec nisi mauris, pellentesque condimentum congue in, blandit ut arcu.
+          In et elit ipsum.
       </oui-modal>
     """
     'description': 'oui-modal'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/modal'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/legacy-components-modal-webcomponent--simple'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-modal-with-actions':
+    'prefix': 'oui-modal-with-actions'
+    'body': """
+      <oui-modal
+          heading="${1:Modal title}"
+          loading="$ctrl.${2:isLoading}"
+          primary-action="$ctrl.${3:onPrimaryAction()}"
+          primary-disabled="$ctrl.${4:primaryDisabled}"
+          primary-label="${5:Ok}"
+          secondary-action="$ctrl.${6:onSecondaryAction()}"
+          secondary-disabled="$ctrl.${7:secondaryDisabled}"
+          secondary-label="${8:Cancel}"
+          on-dismiss="$ctrl.${9:onDismiss()}">
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Duis semper ligula nec fringilla tempor. In rhoncus ullamcorper feugiat.
+              Phasellus vel ipsum vitae neque varius luctus. Proin id iaculis arcu.
+              Fusce justo arcu, egestas vel nulla nec, dictum cursus lacus.
+              Aenean elementum vel odio quis rutrum. In quis tellus in neque vulputate
+              rhoncus vitae ut justo. Ut dignissim varius est in consequat.
+              Donec nisi mauris, pellentesque condimentum congue in, blandit ut arcu.
+              In et elit ipsum.
+          </p>
+      </oui-modal>
+    """
+    'description': 'oui-modal-with-actions'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/legacy-components-modal-webcomponent--with-actions'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-modal-with-icons':
+    'prefix': 'oui-modal-with-icons'
+    'body': """
+      <oui-modal
+          heading="${1:Modal title}"
+          type="${2:info}">
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Duis semper ligula nec fringilla tempor. In rhoncus ullamcorper feugiat.
+              Phasellus vel ipsum vitae neque varius luctus.
+          </p>
+      </oui-modal>
+    """
+    'description': 'oui-modal-with-icons'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/legacy-components-modal-webcomponent--with-icons'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

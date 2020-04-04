@@ -1,9 +1,96 @@
-'.source.html':
-  'oui-message':
-    'prefix': 'oui-message'
+'.text.html':
+  'oui-message-info':
+    'prefix': 'oui-message-info'
     'body': """
-      <oui-message data-type="${1:info}">${2:Message}</oui-message>
+      <oui-message type="info">${1:Lorem ipsum dolor sit amet, consectetur adipiscing elit.}</oui-message>
     """
-    'description': 'oui-message'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/message'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'description': 'oui-message-info'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-message-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-message-success':
+    'prefix': 'oui-message-success'
+    'body': """
+      <oui-message type="success">${1:Lorem ipsum dolor sit amet, consectetur adipiscing elit.}</oui-message>
+    """
+    'description': 'oui-message-success'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-message-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-message-warning':
+    'prefix': 'oui-message-warning'
+    'body': """
+      <oui-message type="warning">${1:Lorem ipsum dolor sit amet, consectetur adipiscing elit.}</oui-message>
+    """
+    'description': 'oui-message-warning'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-message-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-message-error':
+    'prefix': 'oui-message-error'
+    'body': """
+      <oui-message type="error">${1:Lorem ipsum dolor sit amet, consectetur adipiscing elit.}</oui-message>
+    """
+    'description': 'oui-message-error'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-message-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-message-info-dismissable':
+    'prefix': 'oui-message-info-dismissable'
+    'body': """
+      <oui-message
+          type="info"
+          aria-close-button-label="${1:Close}"
+          on-dismiss="$ctrl.${2:onDismiss()}"
+          dismissable>
+          ${3:Lorem ipsum dolor sit amet, consectetur adipiscing elit.}
+      </oui-message>
+    """
+    'description': 'oui-message-info-dismissable'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-message-webcomponent--dismissable'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-message-success-dismissable':
+    'prefix': 'oui-message-success-dismissable'
+    'body': """
+      <oui-message
+          type="success"
+          aria-close-button-label="${1:Close}"
+          on-dismiss="$ctrl.${2:onDismiss()}"
+          dismissable>
+          ${3:Lorem ipsum dolor sit amet, consectetur adipiscing elit.}
+      </oui-message>
+    """
+    'description': 'oui-message-success-dismissable'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-message-webcomponent--dismissable'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-message-warning-dismissable':
+    'prefix': 'oui-message-warning-dismissable'
+    'body': """
+      <oui-message
+          type="warning"
+          aria-close-button-label="${1:Close}"
+          on-dismiss="$ctrl.${2:onDismiss()}"
+          dismissable>
+          ${3:Lorem ipsum dolor sit amet, consectetur adipiscing elit.}
+      </oui-message>
+    """
+    'description': 'oui-message-warning-dismissable'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-message-webcomponent--dismissable'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-message-error-dismissable':
+    'prefix': 'oui-message-error-dismissable'
+    'body': """
+      <oui-message
+          type="error"
+          aria-close-button-label="${1:Close}"
+          on-dismiss="$ctrl.${2:onDismiss()}"
+          dismissable>
+          ${3:Lorem ipsum dolor sit amet, consectetur adipiscing elit.}
+      </oui-message>
+    """
+    'description': 'oui-message-error-dismissable'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-message-webcomponent--dismissable'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

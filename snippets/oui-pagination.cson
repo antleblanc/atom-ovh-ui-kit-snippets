@@ -1,13 +1,12 @@
-'.source.html':
+'.text.html':
   'oui-pagination':
     'prefix': 'oui-pagination'
     'body': """
       <oui-pagination
-          data-current-offset="${1:1}"
-          data-page-size="${2:100}"
-          data-total-items="${3:12}">
+          current-offset="${1:1}"
+          total-items="${2:100}">
       </oui-pagination>
     """
     'description': 'oui-pagination'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/pagination'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>internal</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-pagination-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

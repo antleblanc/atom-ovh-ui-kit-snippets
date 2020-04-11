@@ -1,14 +1,58 @@
-'.source.html':
-  'oui-progress':
-    'prefix': 'oui-progress'
+'.text.html':
+  'oui-progress-info':
+    'prefix': 'oui-progress-info'
     'body': """
       <oui-progress>
-          <oui-progress-bar
-              data-type="${1:info}"
+          <oui-progress-bar type="info" value="$ctrl.${1:percentage}"></oui-progress-bar>
+      </oui-progress>
+    """
+    'description': 'oui-progress-info'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-progress-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-progress-success':
+    'prefix': 'oui-progress-success'
+    'body': """
+      <oui-progress>
+          <oui-progress-bar type="success" value="$ctrl.${1:percentage}"></oui-progress-bar>
+      </oui-progress>
+    """
+    'description': 'oui-progress-success'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-progress-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-progress-warning':
+    'prefix': 'oui-progress-warning'
+    'body': """
+      <oui-progress>
+          <oui-progress-bar type="warning" value="$ctrl.${1:percentage}"></oui-progress-bar>
+      </oui-progress>
+    """
+    'description': 'oui-progress-warning'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-progress-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-progress-error':
+    'prefix': 'oui-progress-error'
+    'body': """
+      <oui-progress>
+          <oui-progress-bar type="error" value="$ctrl.${1:percentage}"></oui-progress-bar>
+      </oui-progress>
+    """
+    'description': 'oui-progress-error'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-progress-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-progress-with-custom-label':
+    'prefix': 'oui-progress-with-custom-label'
+    'body': """
+      <oui-progress>
+          <oui-progress-bar type="${1:info}"
               value="$ctrl.${2:percentage}">
+              Progress: {{$ctrl.${2:percentage}}}%
           </oui-progress-bar>
       </oui-progress>
     """
-    'description': 'oui-progress'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/progress'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'description': 'oui-progress-with-custom-label'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-progress-webcomponent--with-custom-label'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

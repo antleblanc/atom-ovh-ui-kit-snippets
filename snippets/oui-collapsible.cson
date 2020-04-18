@@ -26,7 +26,7 @@
       </oui-collapsible>
     """
     'description': 'oui-collapsible-loading'
-    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/design-system-components-collapsible-webcomponent--loading'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-collapsible-webcomponent--loading'
     'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
 
   'oui-collapsible-group':
@@ -47,5 +47,5 @@
       </oui-collapsible>
     """
     'description': 'oui-collapsible-group'
-    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/design-system-components-collapsible-webcomponent--group-accordion'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-collapsible-webcomponent--group-accordion'
     'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

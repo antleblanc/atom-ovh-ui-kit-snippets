@@ -7,7 +7,7 @@
       </oui-button>
     """
     'description': 'oui-button-ghost'
-    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/design-system-components-buttons-webcomponent-ghost--default'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-buttons-webcomponent-ghost--default'
     'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
 
   'oui-button-primary':
@@ -18,7 +18,7 @@
       </oui-button>
     """
     'description': 'oui-button-primary'
-    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/design-system-components-buttons-webcomponent-primary--default'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-buttons-webcomponent-primary--default'
     'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
 
   'oui-button-secondary':
@@ -29,5 +29,5 @@
       </oui-button>
     """
     'description': 'oui-button-secondary'
-    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/design-system-components-buttons-webcomponent-secondary--default'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-buttons-webcomponent-secondary--default'
     'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

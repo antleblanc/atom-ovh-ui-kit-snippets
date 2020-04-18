@@ -28,7 +28,7 @@
       </oui-textarea>
     """
     'description': 'oui-textarea-with-maxlength'
-    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/design-system-components-textarea-webcomponent--with-maxlength'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-textarea-webcomponent--with-maxlength'
     'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
 
   'oui-textarea-inline':

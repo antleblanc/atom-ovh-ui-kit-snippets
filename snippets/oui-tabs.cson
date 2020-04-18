@@ -34,5 +34,5 @@
       </oui-tabs>
     """
     'description': 'oui-tabs-with-subheadings'
-    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/design-system-components-tabs-webcomponent--with-subheadings'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-tabs-webcomponent--with-subheadings'
     'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

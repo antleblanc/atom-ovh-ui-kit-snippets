@@ -28,5 +28,5 @@
       </oui-select>
     """
     'description': 'oui-select-inline'
-    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/design-system-components-select-webcomponent--inline'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-select-webcomponent--inline'
     'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

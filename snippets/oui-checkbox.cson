@@ -29,5 +29,5 @@
       </oui-checkbox>
     """
     'description': 'oui-checkbox-thumbnail'
-    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/docs/design-system-components-checkbox-webcomponent-thumbnail--default'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-checkbox-webcomponent-thumbnail--default'
     'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

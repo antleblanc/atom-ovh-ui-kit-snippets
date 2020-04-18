@@ -5,7 +5,7 @@
       <oui-chips items="$ctrl.${1:items}"></oui-chips>
     """
     'description': 'oui-chips-inline'
-    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/design-system-components-chips-webcomponent-inline--default'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-chips-webcomponent-inline--default'
     'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
 
   'oui-chips-stacked':
@@ -14,5 +14,5 @@
       <oui-chips items="$ctrl.${1:items}" stacked></oui-chips>
     """
     'description': 'oui-chips-stacked'
-    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/design-system-components-chips-webcomponent-stacked--default'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-chips-webcomponent-stacked--default'
     'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

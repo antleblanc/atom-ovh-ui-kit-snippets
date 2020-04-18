@@ -10,5 +10,5 @@
       </oui-back-button>
     """
     'description': 'oui-back-button'
-    'descriptionMoreURL': 'https://ovh-ux.github.io/ovh-ui-kit/?path=/story/legacy-components-back-button-webcomponent--simple'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/legacy-components-back-button-webcomponent--simple'
     'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

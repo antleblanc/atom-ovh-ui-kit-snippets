@@ -1,4 +1,4 @@
-'.source.html':
+'.text.html':
   'oui-autocomplete':
     'prefix': 'oui-autocomplete'
     'body': """
@@ -7,9 +7,9 @@
           class="oui-input oui-input_inline"
           placeholder="${1:Search country name}"
           data-ng-model="$ctrl.${2:model}"
-          data-oui-autocomplete="$ctrl.${3:suggestions}"
-          data-oui-autocomplete-on-select="$ctrl.${4:onAutocomplete(value)}">
+          oui-autocomplete="$ctrl.${3:suggestions}"
+          oui-autocomplete-on-select="$ctrl.${4:onAutocomplete(value)}">
     """
     'description': 'oui-autocomplete'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/autocomplete'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>directive</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-directives-autocomplete--array-of-strings'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

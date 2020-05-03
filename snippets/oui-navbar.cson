@@ -1,15 +1,16 @@
-'.source.html':
-  'oui-navbar':
-    'prefix': 'oui-navbar'
+'.text.html':
+  'oui-navbar-simple':
+    'prefix': 'oui-navbar-simple'
     'body': """
       <oui-navbar
-          data-brand="$ctrl.${1:brand}"
-          data-active-link="${2:lorem}"
-          data-main-links="$ctrl.${3:mainLinks}"
-          data-aside-links="$ctrl.${4:asideLinks}"
-          data-toggler-links="$ctrl.${5:togglerLinks}">
+          brand="$ctrl.${1:brand}"
+          active-link="${2:lorem}"
+          main-links="$ctrl.${3:mainLinks}"
+          aside-links="$ctrl.${4:asideLinks}"
+          toggler-links="$ctrl.${5:togglerLinks}"
+          fixed>
       </oui-navbar>
     """
-    'description': 'oui-navbar'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/navbar'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'description': 'oui-navbar-simple'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/legacy-components-navbar-webcomponent--simple'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

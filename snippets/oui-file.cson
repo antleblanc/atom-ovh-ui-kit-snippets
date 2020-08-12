@@ -1,13 +1,13 @@
-'.source.html':
+'.text.html':
   'oui-file':
     'prefix': 'oui-file'
     'body': """
       <oui-file
           disabled="$ctrl.${1:disabled}"
           placeholder="${2:Select a file…}"
-          data-model="$ctrl.${3:model}">
+          model="$ctrl.${3:model}">
       </oui-file>
     """
     'description': 'oui-file'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/file'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-file-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

@@ -1,18 +1,32 @@
-'.source.html':
+'.text.html':
   'oui-select':
     'prefix': 'oui-select'
     'body': """
       <oui-select
           disabled="$ctrl.${1:disabled}"
-          data-items="${2:['a', 'b', 'c']}"
-          data-model="$ctrl.${3:model}"
-          name="${4:letter}"
-          placeholder="{{ $ctrl.${5:placeholder} }}"
-          data-on-blur="$ctrl.${6:onBlur()}"
-          data-on-change="$ctrl.${7:onChange(modelValue)}"
-          data-on-focus="$ctrl.${8:onFocus()}">
+          items="${2:['a', 'b', 'c']}"
+          model="$ctrl.${3:model}"
+          placeholder="${4:Select a letter…}"
+          on-blur="$ctrl.${5:onBlur()}"
+          on-change="$ctrl.${6:onChange(modelValue)}"
+          on-focus="$ctrl.${7:onFocus()}">
       </oui-select>
     """
     'description': 'oui-select'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/select'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-select-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-select-inline':
+    'prefix': 'oui-select-inline'
+    'body': """
+      <oui-select
+          disabled="$ctrl.${1:disabled}"
+          items="${2:['a', 'b', 'c']}"
+          model="$ctrl.${3:model}"
+          placeholder="${4:Select a letter…}"
+          inline>
+      </oui-select>
+    """
+    'description': 'oui-select-inline'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-select-webcomponent--inline'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

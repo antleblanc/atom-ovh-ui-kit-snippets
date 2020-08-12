@@ -1,0 +1,44 @@
+'.text.html':
+  'oui-box':
+    'prefix': 'oui-box'
+    'body': """
+      <div class="oui-box">
+          <h4 class="oui-box__heading">An awesome title for an awesome box</h4>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Sed tempus sapien erat, et molestie magna tristique non.
+              Sed tincidunt eu augue tempor consectetur. Nullam iaculis,
+              nibh mollis vulputate elementum, neque est iaculis nisi,
+              et gravida turpis erat non dui. Nunc eget tortor et enim
+              interdum euismod sed eget purus. Integer in metus ultrices,
+              ultricies lacus in, fermentum nisi. Cras sed neque id dui
+              fermentum faucibus. Mauris mollis arcu justo, eget convallis
+              massa volutpat ac.
+          </p>
+      </div>
+    """
+    'description': 'oui-box'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-box-native--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-box-light':
+    'prefix': 'oui-box-light'
+    'body': """
+      <div class="oui-box oui-box_light">
+          <h4 class="oui-box__heading">An awesome title for an awesome box</h4>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Sed tempus sapien erat, et molestie magna tristique non.
+              Sed tincidunt eu augue tempor consectetur. Nullam iaculis,
+              nibh mollis vulputate elementum, neque est iaculis nisi,
+              et gravida turpis erat non dui. Nunc eget tortor et enim
+              interdum euismod sed eget purus. Integer in metus ultrices,
+              ultricies lacus in, fermentum nisi. Cras sed neque id dui
+              fermentum faucibus. Mauris mollis arcu justo, eget convallis
+              massa volutpat ac.
+          </p>
+      </div>
+    """
+    'description': 'oui-box-light'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-box-native--light'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

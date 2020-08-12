@@ -1,9 +1,18 @@
-'.source.html':
+'.text.html':
   'oui-spinner':
     'prefix': 'oui-spinner'
     'body': """
       <oui-spinner></oui-spinner>
     """
     'description': 'oui-spinner'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/spinner'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/legacy-components-spinner-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-spinner-sizes':
+    'prefix': 'oui-spinner-sizes'
+    'body': """
+      <oui-spinner size="${1:s}"></oui-spinner>
+    """
+    'description': 'oui-spinner-sizes'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/legacy-components-spinner-webcomponent--sizes'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

@@ -1,13 +1,13 @@
-'.source.html':
+'.text.html':
   'oui-switch':
     'prefix': 'oui-switch'
     'body': """
       <oui-switch
           disabled="$ctrl.${1:disabled}"
-          data-model="$ctrl.${2:checked}"
-          data-on-change="$ctrl.${3:onChange(modelValue)}">
+          model="$ctrl.${2:checked}"
+          on-change="$ctrl.${3:onChange(modelValue)}">
       </oui-switch>
     """
     'description': 'oui-switch'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/switch'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-switch-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

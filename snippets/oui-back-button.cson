@@ -1,14 +1,14 @@
-'.source.html':
+'.text.html':
   'oui-back-button':
     'prefix': 'oui-back-button'
     'body': """
       <oui-back-button
-          href="${1}"
+          href="${1:#}"
           aria-label="${2:Aria label for heading}"
-          data-on-click="$ctrl.${3:onClick()}">
+          on-click="$ctrl.${3:onClick()}">
           {{ $ctrl.${4:text} }}
       </oui-back-button>
     """
     'description': 'oui-back-button'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/back-button'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/legacy-components-back-button-webcomponent--simple'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

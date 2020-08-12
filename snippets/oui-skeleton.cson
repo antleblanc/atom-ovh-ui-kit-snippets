@@ -1,9 +1,27 @@
-'.source.html':
+'.text.html':
   'oui-skeleton':
     'prefix': 'oui-skeleton'
     'body': """
       <oui-skeleton></oui-skeleton>
     """
     'description': 'oui-skeleton'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/skeleton'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/legacy-components-skeleton-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-skeleton-sizes':
+    'prefix': 'oui-skeleton-sizes'
+    'body': """
+      <oui-skeleton size="${1:xs}"></oui-skeleton>
+    """
+    'description': 'oui-skeleton-sizes'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/legacy-components-skeleton-webcomponent--sizes'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-skeleton-randomized-width':
+    'prefix': 'oui-skeleton-randomized-width'
+    'body': """
+      <oui-skeleton randomized></oui-skeleton>
+    """
+    'description': 'oui-skeleton-randomized-width'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/legacy-components-skeleton-webcomponent--randomized-width'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

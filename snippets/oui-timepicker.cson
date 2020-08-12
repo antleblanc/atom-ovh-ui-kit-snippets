@@ -1,16 +1,25 @@
-'.source.html':
+'.text.html':
   'oui-timepicker':
     'prefix': 'oui-timepicker'
     'body': """
       <oui-timepicker
           disabled="$ctrl.${1:disabled}"
-          data-model="$ctrl.${2:model}"
-          data-on-change="$ctrl.${3:onChange(modelValue)}"
-          data-on-close="$ctrl.${4:onClose(modelValue)}"
-          data-on-open="$ctrl.${5:onOpen(modelValue)}"
+          model="$ctrl.${2:model}"
+          on-change="$ctrl.${3:onChange(modelValue)}"
+          on-close="$ctrl.${4:onClose(modelValue)}"
+          on-open="$ctrl.${5:onOpen(modelValue)}"
           placeholder="${6:HH:MM}">
       </oui-timepicker>
     """
     'description': 'oui-timepicker'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/timepicker'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-timepicker-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-timepicker-inline':
+    'prefix': 'oui-timepicker-inline'
+    'body': """
+      <oui-timepicker model="$ctrl.${1:inlineModel}" inline></oui-timepicker>
+    """
+    'description': 'oui-timepicker-inline'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-timepicker-webcomponent--inline'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

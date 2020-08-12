@@ -1,16 +1,33 @@
-'.source.html':
-  'oui-search':
-    'prefix': 'oui-search'
+'.text.html':
+  'oui-search-simple':
+    'prefix': 'oui-search-simple'
     'body': """
       <oui-search
           disabled="$ctrl.${1:disabled}"
-          data-model="$ctrl.${2:model}"
-          data-on-change="$ctrl.${3:onChange(modelValue)}"
-          data-on-reset="$ctrl.${4:onReset()}"
-          data-on-submit="$ctrl.${5:onSubmit(modelValue)}"
+          model="$ctrl.${2:model}"
+          on-change="$ctrl.${3:onChange(modelValue)}"
+          on-reset="$ctrl.${4:onReset()}"
+          on-submit="$ctrl.${5:onSubmit(modelValue)}"
           placeholder="${6:Placeholder example}">
       </oui-search>
     """
-    'description': 'oui-search'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/search'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'description': 'oui-search-simple'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-search-webcomponent--simple'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-search-simple-autocomplete':
+    'prefix': 'oui-search-simple-autocomplete'
+    'body': """
+      <oui-search
+          autocomplete="$ctrl.${1:autocomplete}"
+          autocomplete-property="${2:country.name}"
+          model="$ctrl.${3:model}"
+          on-change="$ctrl.${4:onChange(modelValue)}"
+          on-reset="$ctrl.${5:onReset()}"
+          on-submit="$ctrl.${6:onSubmit(modelValue)}"
+          placeholder="${7:Search country name}">
+      </oui-search>
+    """
+    'description': 'oui-search-simple-autocomplete'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-search-webcomponent--autocomplete'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

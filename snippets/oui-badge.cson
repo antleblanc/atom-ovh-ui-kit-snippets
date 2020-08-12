@@ -1,0 +1,162 @@
+'.text.html':
+  'oui-badge-default':
+    'prefix': 'oui-badge-default'
+    'body': """
+      <span class="oui-badge">${1:Default}</span>
+    """
+    'description': 'oui-badge-default'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--notification'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-info':
+    'prefix': 'oui-badge-info'
+    'body': """
+      <span class="oui-badge oui-badge_info">${1:Info}</span>
+    """
+    'description': 'oui-badge-info'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--notification'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-success':
+    'prefix': 'oui-badge-success'
+    'body': """
+      <span class="oui-badge oui-badge_success">${1:Success}</span>
+    """
+    'description': 'oui-badge-success'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--notification'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-warning':
+    'prefix': 'oui-badge-warning'
+    'body': """
+      <span class="oui-badge oui-badge_warning">${1:Warning}</span>
+    """
+    'description': 'oui-badge-warning'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--notification'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-error':
+    'prefix': 'oui-badge-error'
+    'body': """
+      <span class="oui-badge oui-badge_error">${1:Error}</span>
+    """
+    'description': 'oui-badge-error'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--notification'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-alpha':
+    'prefix': 'oui-badge-alpha'
+    'body': """
+      <span class="oui-badge oui-badge_alpha">${1:Alpha}</span>
+    """
+    'description': 'oui-badge-alpha'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--product'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-beta':
+    'prefix': 'oui-badge-beta'
+    'body': """
+      <span class="oui-badge oui-badge_beta">${1:Beta}</span>
+    """
+    'description': 'oui-badge-beta'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--product'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-new':
+    'prefix': 'oui-badge-new'
+    'body': """
+      <span class="oui-badge oui-badge_new">${1:New}</span>
+    """
+    'description': 'oui-badge-new'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--product'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-soon':
+    'prefix': 'oui-badge-soon'
+    'body': """
+      <span class="oui-badge oui-badge_soon">${1:Soon}</span>
+    """
+    'description': 'oui-badge-soon'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--product'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-promotion':
+    'prefix': 'oui-badge-promotion'
+    'body': """
+      <span class="oui-badge oui-badge_promotion">${1:Promotion}</span>
+    """
+    'description': 'oui-badge-promotion'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--product'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-price-drop':
+    'prefix': 'oui-badge-price-drop'
+    'body': """
+      <span class="oui-badge oui-badge_price-drop">${1:Price Drop}</span>
+    """
+    'description': 'oui-badge-price-drop'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--product'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-sold-out':
+    'prefix': 'oui-badge-sold-out'
+    'body': """
+      <span class="oui-badge oui-badge_sold-out">${1:SOLD OUT}</span>
+    """
+    'description': 'oui-badge-sold-out'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--product'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-best-seller':
+    'prefix': 'oui-badge-best-seller'
+    'body': """
+      <span class="oui-badge oui-badge_best-seller">${1:Best Seller}</span>
+    """
+    'description': 'oui-badge-best-seller'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--product'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-limited-edition':
+    'prefix': 'oui-badge-limited-edition'
+    'body': """
+      <span class="oui-badge oui-badge_limited-edition">${1:Limited Edition}</span>
+    """
+    'description': 'oui-badge-limited-edition'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--product'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-delivery-120-seconds':
+    'prefix': 'oui-badge-delivery-120-seconds'
+    'body': """
+      <span class="oui-badge oui-badge_delivery-120-seconds">${1:120s}</span>
+    """
+    'description': 'oui-badge-delivery-120-seconds'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--delivery'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-delivery-24-hours':
+    'prefix': 'oui-badge-delivery-24-hours'
+    'body': """
+      <span class="oui-badge oui-badge_delivery-24-hours">${1:24h}</span>
+    """
+    'description': 'oui-badge-delivery-24-hours'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--delivery'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-delivery-72-hours':
+    'prefix': 'oui-badge-delivery-72-hours'
+    'body': """
+      <span class="oui-badge oui-badge_delivery-72-hours">${1:72h}</span>
+    """
+    'description': 'oui-badge-delivery-72-hours'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--delivery'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-badge-delivery-10-days':
+    'prefix': 'oui-badge-delivery-10-days'
+    'body': """
+      <span class="oui-badge oui-badge_delivery-10-days">${1:10d}</span>
+    """
+    'description': 'oui-badge-delivery-10-days'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-badge-native--delivery'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

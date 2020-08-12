@@ -1,16 +1,47 @@
-'.source.html':
+'.text.html':
   'oui-textarea':
     'prefix': 'oui-textarea'
     'body': """
       <oui-textarea
           disabled="$ctrl.${1:disabled}"
-          data-model="$ctrl.${2:model}"
-          data-on-change="$ctrl.${3:onChange(modelValue)}"
+          model="$ctrl.${2:model}"
+          on-change="$ctrl.${3:onChange(modelValue)}"
           placeholder="${4:Please insert your text…}"
           readonly="$ctrl.${5:readonly}"
-          rows="${6:7}">
+          rows="${6:5}">
       </oui-textarea>
     """
     'description': 'oui-textarea'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/textarea'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-textarea-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-textarea-with-maxlength':
+    'prefix': 'oui-textarea-with-maxlength'
+    'body': """
+      <oui-textarea
+          disabled="$ctrl.${1:disabled}"
+          model="$ctrl.${2:model}"
+          on-change="$ctrl.${3:onChange(modelValue)}"
+          maxlength="${4:250}"
+          placeholder="${5:Please insert your text…}"
+          rows="${6:5}">
+      </oui-textarea>
+    """
+    'description': 'oui-textarea-with-maxlength'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-textarea-webcomponent--with-maxlength'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-textarea-inline':
+    'prefix': 'oui-textarea-inline'
+    'body': """
+      <oui-textarea
+          disabled="$ctrl.${1:disabled}"
+          model="$ctrl.${2:model}"
+          placeholder="${3:Please insert your text…}"
+          rows="${4:5}"
+          inline>
+      </oui-textarea>
+    """
+    'description': 'oui-textarea-inline'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-textarea-webcomponent--inline'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

@@ -1,16 +1,66 @@
-'.source.html':
+'.text.html':
   'oui-calendar':
     'prefix': 'oui-calendar'
     'body': """
       <oui-calendar
           disabled="$ctrl.${1:disabled}"
-          data-model="$ctrl.${2:model}"
-          data-on-change="$ctrl.${3:onChange(selectedDates, dateStr)}"
-          data-on-close="$ctrl.${4:onClose(selectedDates, dateStr)}"
-          data-on-open="$ctrl.${5:onOpen(selectedDates, dateStr)}"
+          model="$ctrl.${2:model}"
+          on-change="$ctrl.${3:onChange(selectedDates, dateStr)}"
+          on-close="$ctrl.${4:onClose(selectedDates, dateStr)}"
+          on-open="$ctrl.${5:onOpen(selectedDates, dateStr)}"
           placeholder="${6:YYYY-MM-DD}">
       </oui-calendar>
     """
     'description': 'oui-calendar'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/calendar'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-calendar-webcomponent--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-calendar-inline':
+    'prefix': 'oui-calendar-inline'
+    'body': """
+      <oui-calendar
+          model="$ctrl.${1:model}"
+          inline>
+      </oui-calendar>
+    """
+    'description': 'oui-calendar-inline'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-calendar-webcomponent--inline'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-calendar-with-week-numbers':
+    'prefix': 'oui-calendar-with-week-numbers'
+    'body': """
+      <oui-calendar
+          model="$ctrl.${1:model}"
+          week-numbers>
+      </oui-calendar>
+    """
+    'description': 'oui-calendar-with-week-numbers'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-calendar-webcomponent--with-week-numbers'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-calendar-limited-range-of-dates':
+    'prefix': 'oui-calendar-limited-range-of-dates'
+    'body': """
+      <oui-calendar
+          model="$ctrl.${1:model}"
+          min-date="$ctrl.${2:minDate}"
+          max-date="$ctrl.${3:maxDate}">
+      </oui-calendar>
+    """
+    'description': 'oui-calendar-limited-range-of-dates'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-calendar-webcomponent--min-and-max'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-calendar-enable-timepicker':
+    'prefix': 'oui-calendar-enable-timepicker'
+    'body': """
+      <oui-calendar
+          model="$ctrl.${1:model}"
+          format="${2:Y-m-d H:i}"
+          enable-time>
+      </oui-calendar>
+    """
+    'description': 'oui-calendar-enable-timepicker'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-calendar-webcomponent--with-timepicker'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

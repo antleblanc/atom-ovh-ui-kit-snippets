@@ -1,9 +1,33 @@
-'.source.html':
-  'oui-button':
-    'prefix': 'oui-button'
+'.text.html':
+  'oui-button-ghost':
+    'prefix': 'oui-button-ghost'
     'body': """
-      <oui-button aria-label="${1:Manage your servers}">${1:Manage your servers}</oui-button>
+      <oui-button variant="link" disabled="$ctrl.${1:disabled}">
+          ${2:Call to action}
+      </oui-button>
     """
-    'description': 'oui-button'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/button'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'description': 'oui-button-ghost'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-buttons-webcomponent-ghost--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-button-primary':
+    'prefix': 'oui-button-primary'
+    'body': """
+      <oui-button variant="primary" disabled="$ctrl.${1:disabled}">
+          ${2:Call to action}
+      </oui-button>
+    """
+    'description': 'oui-button-primary'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-buttons-webcomponent-primary--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-button-secondary':
+    'prefix': 'oui-button-secondary'
+    'body': """
+      <oui-button variant="secondary" disabled="$ctrl.${1:disabled}">
+          ${2:Call to action}
+      </oui-button>
+    """
+    'description': 'oui-button-secondary'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-buttons-webcomponent-secondary--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

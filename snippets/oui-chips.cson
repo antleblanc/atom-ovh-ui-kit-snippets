@@ -1,9 +1,18 @@
-'.source.html':
-  'oui-chips':
-    'prefix': 'oui-chips'
+'.text.html':
+  'oui-chips-inline':
+    'prefix': 'oui-chips-inline'
     'body': """
-      <oui-chips data-items="$ctrl.${1:items}"></oui-chips>
+      <oui-chips items="$ctrl.${1:items}"></oui-chips>
     """
-    'description': 'oui-chips'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/chips'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'description': 'oui-chips-inline'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-chips-webcomponent-inline--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-chips-stacked':
+    'prefix': 'oui-chips-stacked'
+    'body': """
+      <oui-chips items="$ctrl.${1:items}" stacked></oui-chips>
+    """
+    'description': 'oui-chips-stacked'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-chips-webcomponent-stacked--default'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

@@ -1,9 +1,24 @@
-'.source.html':
+'.text.html':
   'oui-form-actions':
     'prefix': 'oui-form-actions'
     'body': """
       <oui-form-actions disabled="$ctrl.${1:disabled}"></oui-form-actions>
     """
     'description': 'oui-form-actions'
-    'descriptionMoreURL': 'https://github.com/ovh/ovh-ui-kit/tree/master/packages/components/form-actions'
-    'rightLabelHTML': '<span style="color: #59d2ef; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/legacy-components-form-actions-webcomponent--simple'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-form-actions-custom-naming':
+    'prefix': 'oui-form-actions-custom-naming'
+    'body': """
+      <oui-form-actions
+          submit-text="${1:Apply}"
+          cancel-text="${2:Close}"
+          on-submit="$ctrl.${3:onSubmitClick()}"
+          on-cancel="$ctrl.${4:onCancelClick()}"
+          disabled="$ctrl.${5:disabled}">
+      </oui-form-actions>
+    """
+    'description': 'oui-form-actions-custom-naming'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/legacy-components-form-actions-webcomponent--custom-naming'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

@@ -1,3 +1,18 @@
+# [3.1.0](https://github.com/antleblanc/atom-ovh-ui-kit-snippets/compare/v3.0.0...v3.1.0) (2021-06-01)
+
+
+### Bug Fixes
+
+* **snippets:** update oui-back-button ([554551a](https://github.com/antleblanc/atom-ovh-ui-kit-snippets/commit/554551a91b45df1be654ff3b998f1e7b948800e2))
+
+
+### Features
+
+* **snippets:** add oui-back-button-default ([2083bdd](https://github.com/antleblanc/atom-ovh-ui-kit-snippets/commit/2083bdd83c0902827963bcb1d0ca488da32ec768))
+* **snippets:** add oui-numeric-step ([0beb275](https://github.com/antleblanc/atom-ovh-ui-kit-snippets/commit/0beb275e862e60b64642d48d773c482a623e24fa))
+
+
+
 # [3.0.0](https://github.com/antleblanc/atom-ovh-ui-kit-snippets/compare/v2.0.1...v3.0.0) (2020-08-12)
 
 

@@ -4,11 +4,25 @@
     'body': """
       <oui-back-button
           href="${1:#}"
-          aria-label="${2:Aria label for heading}"
-          on-click="$ctrl.${3:onClick()}">
-          {{ $ctrl.${4:text} }}
+          previous-page="{{ $ctrl.${2:previousPage} }}"
+          aria-label="${3:Aria label for heading}"
+          on-click="$ctrl.${4:onClick()}">
       </oui-back-button>
     """
     'description': 'oui-back-button'
     'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/legacy-components-back-button-webcomponent--simple'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-back-button-default':
+    'prefix': 'oui-back-button-default'
+    'body': """
+      <oui-back-button
+          href="${1:#}"
+          previous-page="{{ $ctrl.${2:previousPage} }}"
+          aria-label="${3:Aria label for heading}"
+          on-click="$ctrl.${4:onClick()}">
+      </oui-back-button>
+    """
+    'description': 'oui-back-button-default'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-back-button-webcomponent--default'
     'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

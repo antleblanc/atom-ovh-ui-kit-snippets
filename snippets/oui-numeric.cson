@@ -26,3 +26,19 @@
     'description': 'oui-numeric-limits'
     'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-numeric-webcomponent--limits'
     'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'
+
+  'oui-numeric-step':
+    'prefix': 'oui-numeric-step'
+    'body': """
+      <oui-numeric
+          min="$ctrl.${1:min}"
+          max="$ctrl.${2:max}"
+          model="$ctrl.${3:model}"
+          disabled="$ctrl.${4:disabled}"
+          step="$ctrl.${5:step}"
+          on-change="$ctrl.${6:onChange(modelValue)}">
+      </oui-numeric>
+    """
+    'description': 'oui-numeric-step'
+    'descriptionMoreURL': 'https://ovh.github.io/ovh-ui-kit/?path=/story/design-system-components-numeric-webcomponent--step'
+    'rightLabelHTML': '<span style="color: #4d5592; font-weight: bold;">OVHcloud UI Kit <small>component</small></span>'

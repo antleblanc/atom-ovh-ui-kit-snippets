@@ -1,3 +1,5 @@
+:warning: Following extension is deprecated. See [Sunsetting Atom](https://github.blog/2022-06-08-sunsetting-atom/) blog post.
+
 # OVHcloud UI Kit Snippets for [Atom](https://atom.io)
 
 > Collection of OVHcloud UI Kit snippets for Atom.

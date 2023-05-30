@@ -26,4 +26,4 @@ $ apm install atom-ovh-ui-kit-snippets
 
 ## License
 
-MIT © [Antoine Leblanc](https://antleblanc.me)
+MIT © [Antoine Leblanc](https://antleblanc.com)
